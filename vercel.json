@@ -3,12 +3,14 @@
     "builds": [
       { "src": "*.html", "use": "@vercel/static" },
       { "src": "*.js", "use": "@vercel/node" },
-      { "src": "*.css", "use": "@vercel/static" }
+      { "src": "*.css", "use": "@vercel/static" },
+      { "src": "public/**", "use": "@vercel/static" }
     ],
     "routes": [
       { "handle": "filesystem" },
       { "src": "/index.js", "dest": "/index.js" },
       { "src": "/styles.css", "dest": "/styles.css" },
+      { "src": "/public/(.*)", "dest": "/public/$1" },
       { "src": "/(.*)", "dest": "/index.html" }
     ]
   }
