@@ -1,10 +1,11 @@
 # MyWeather
 
-![Osaka Screenshot](/public/Osakass.png)
-![Amsterdam Screenshot](/public/Amsterdamss.png)
+MyWeather is a weather based web-app built for the purpose of teaching basic Javascript and API calls. All JS code is commented in an effort to explain how and why it is written.
 
-# What is MyWeather?
-MyWeather is a weather based web-app built for the purpose of teaching basic Javascript and API calls. All JS code is commented in an effort to explain how and why it is used.
+Try it out for yourself ---> [MyWeather](https://my-weather-rose.vercel.app)
+
+
+![Osaka Screenshot](/public/Osakass.png)
 
 
 ### How to build?
@@ -22,3 +23,5 @@ You will need personal API keys to supplement in the JS file. API keys for the w
 - ⛈️ Weather data fetching via OpenWeather API calls
 - 💢 Error handling
 - 🌟 Commented code
+
+![Amsterdam Screenshot](/public/Amsterdamss.png)
