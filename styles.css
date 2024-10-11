@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("/sky1.png");
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("/public/sky1.png");
     background-color: hsl(0, 0%, 95%);
     margin: 0;
     display: flex;
