@@ -1,3 +1,5 @@
+console.log("index.js is loading"); //debugging to check is js is loading in production
+
 const weatherForm = document.querySelector(".weatherForm"); //accessing the first element of the weatherForm class
 const cityInput = document.querySelector(".cityInput"); //accessing the first element of the cityInput class
 const card = document.querySelector(".card"); //accessing the first element of the card class
