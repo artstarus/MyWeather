@@ -10,8 +10,8 @@ const box3 = document.querySelector("#box3");
 const box4 = document.querySelector("#box4");
 const cityPlaceholder = document.querySelector(".cityPlaceholder");
 const emojiPlaceholder = document.querySelector(".emojiPlaceholder");
-const apikey = "YOUR_WEATHER_API_KEY_HERE"; //our personal weatherapi key
-const imgapikey = "YOUR_IMAGE_API_KEY_HERE"; //our personal image api key
+const apikey = "5d1baf138276f4bef7771e4fd9bb317e"; //our personal weatherapi key
+const imgapikey = "h7StbBt4tOaD3V5K0pL7L4djagEEamN-mPuNqut45aM"; //our personal image api key
 
 weatherForm.addEventListener("submit", async event => { //EventListener for when our submit button is clicked
     event.preventDefault(); //prevents default page-refresh action of forms
